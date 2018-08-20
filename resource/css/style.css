@@ -1,0 +1,179 @@
+div#header {
+  width: 945px;
+  height: 165px;
+  margin: 0 auto;
+}
+
+div#logo {
+  width: 310px;
+  height: 80px;
+  margin: 50px;
+  float: left;
+}
+
+#logo img {
+  width: 110px;
+  height: 110px;
+  float: below;
+}
+
+div#login {
+  width: 180px;
+  height: 70px;
+  margin: 50px;
+  float: right;
+}
+
+#login p {
+  font-family: Arial;
+  size: 12px;
+  font-weight: bold;
+}
+
+div#menu {
+  background-color: #817676;
+  width: 945px;
+  height: 65px;
+  margin: 0 auto;
+}
+div#menu a {
+  color: #fff;
+  font-family: Arial;
+  size: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: block;
+  float: left;
+}
+
+div#menu a:hover {
+  color: #90caf9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  display: block;
+  width: 945px;
+  height: 327px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  float: left;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+.slider input {
+  display: none;
+}
+
+.slider label {
+  background-color: #fcfcfc;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+  left: 10px;
+}
+
+.slider li:nth-child(2) label {
+  left: 40px;
+}
+
+.slider li:nth-child(3) label {
+  left: 70px;
+}
+
+.slider img {
+  opacity: 0;
+  visibility: hidden;
+}
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+div#container {
+  width: 945px;
+  height: 400px;
+  margin: 0 auto;
+}
+div.call {
+  width: 245px;
+  height: 360px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+div.call h1 {
+  font-family: arial;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+div.call img {
+  width: 192px;
+  height: 192px;
+}
+
+div#footer {
+  background-color: #ffffff;
+  width: 945px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+div#footer p {
+  color: rgb(8, 8, 8);
+  font-family: Arial;
+  size: 8px;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 50px;
+  float: left;
+}
+
+div#footerRight {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+div#footerLeft {
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+.social ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+}
